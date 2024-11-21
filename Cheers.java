@@ -7,7 +7,7 @@ public class Cheers {
         
                 for (char c : input.toCharArray()) {
                     String article = vowels.indexOf(c) >= 0 ? "an" : "a";
-                    System.out.printf("Give me a %s %c: %c!\n", article, c, c);
+                    System.out.printf("Give me %s %c: %c!\n", article, c, c);
                 }
         
                 System.out.println("What does that spell?");
